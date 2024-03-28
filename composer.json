@@ -1,17 +1,17 @@
 {
     "name": "rapidwebltd/php-google-oauth-2-handler",
-    "description": "This package provides a handler to ease authentication with Google's OAuth 2 APIs.",
+    "description": "Fork to fix conflicting version of guzzlehttp/guzzle",
     "type": "library",
     "license": "LGPL-3.0-only",
     "authors": [
         {
-            "name": "Jordan Hall",
-            "email": "jordan.hall@rapidweb.biz"
+            "name": "Jonathan Arana",
+            "email": "jonathan@primermaster.net"
         }
     ],
     "require": {
         "google/apiclient": "^2.2",
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^7.8"
     },
     "autoload": {
         "psr-4": {
